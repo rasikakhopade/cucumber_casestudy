@@ -120,6 +120,4 @@ public class Step_definition
  {
 	 driver.findElement(By.xpath("/html/body/main/div/div/form/fieldset/div/div[13]/div/input[1]")).click();
  }
-
- 
 }

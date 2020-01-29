@@ -26,3 +26,17 @@ When user clicks signin
 And user enters credentials as
 |lalitha|
 |Password123|
+
+
+@searchproduct
+Scenario: Product Search
+Given user open TestMeApp
+When user clicks signin
+And user enters credentials as
+|lalitha|
+|Password123|
+And search product
+|Head|
+And click on find button
+Then click on add to cart button
+
